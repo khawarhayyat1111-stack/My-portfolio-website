@@ -3,10 +3,10 @@ import Avatar3D from './Avatar3D'
 
 function Hero() {
   return (
-    <section id="top" className="mx-auto max-w-5xl px-6 pt-16 pb-12 sm:pt-20">
+    <section id="top" className="mx-auto max-w-5xl px-6 pt-10 pb-10 sm:pt-20 sm:pb-12">
       <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto]">
         <div>
-          <h1 className="max-w-3xl font-display text-5xl leading-[1.05] font-medium tracking-tight text-ink sm:text-7xl">
+          <h1 className="max-w-3xl font-display text-4xl leading-[1.05] font-medium tracking-tight text-ink sm:text-6xl lg:text-7xl">
             Khawar Hayyat
           </h1>
           <p className="mt-6 font-display text-2xl leading-snug font-medium tracking-tight text-accent sm:text-3xl">
@@ -38,7 +38,7 @@ function Hero() {
           <Avatar3D />
         </div>
       </div>
-      <dl className="mt-12 grid grid-cols-2 gap-8 border-t border-line pt-8 sm:grid-cols-4">
+      <dl className="mt-10 grid grid-cols-2 gap-6 border-t border-line pt-6 sm:grid-cols-4 md:mt-12 md:gap-8 md:pt-8">
         {stats.map((stat) => (
           <div key={stat.label}>
             <dt className="sr-only">{stat.label}</dt>

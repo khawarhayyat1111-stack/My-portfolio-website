@@ -2,8 +2,8 @@ import { certifications, education } from '../data/content'
 
 function Education() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-8">
-      <h2 className="mb-8 font-display text-3xl font-medium tracking-tight sm:text-4xl">
+    <section className="mx-auto max-w-5xl px-6 py-5 md:py-8">
+      <h2 className="mb-6 font-display text-3xl font-medium tracking-tight sm:text-4xl md:mb-8">
         Education and certifications
       </h2>
       <div className="grid gap-10 md:grid-cols-2">

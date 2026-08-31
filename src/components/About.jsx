@@ -2,8 +2,8 @@ import { about } from '../data/content'
 
 function About() {
   return (
-    <section id="about" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-8">
-      <div className="grid gap-8 md:grid-cols-[11rem_1fr] md:gap-10">
+    <section id="about" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-5 md:py-8">
+      <div className="grid gap-6 md:grid-cols-[9rem_1fr] md:gap-8">
         <h2 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
           About
         </h2>

@@ -2,14 +2,14 @@ import { publications } from '../data/content'
 
 function Publication() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-8">
+    <section className="mx-auto max-w-5xl px-6 py-5 md:py-8">
       <h2 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
         Published books
       </h2>
       <p className="mt-3 max-w-xl text-muted">
         Two books on communication and the craft of writing.
       </p>
-      <div className="mt-8 grid gap-6 sm:grid-cols-2">
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 md:mt-8">
         {publications.map((book) => (
           <article
             key={book.title}

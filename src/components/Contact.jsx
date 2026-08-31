@@ -3,7 +3,7 @@ import { profile } from '../data/content'
 function Contact() {
   return (
     <section id="contact" className="scroll-mt-20 border-t border-line bg-card">
-      <div className="mx-auto max-w-5xl px-6 py-12 text-center">
+      <div className="mx-auto max-w-5xl px-6 py-10 text-center md:py-12">
         <h2 className="mx-auto max-w-2xl font-display text-4xl font-medium tracking-tight text-ink sm:text-5xl">
           Need a writer, a tester, or both?
         </h2>

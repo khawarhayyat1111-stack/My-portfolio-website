@@ -2,8 +2,8 @@ import { profile, work } from '../data/content'
 
 function Work() {
   return (
-    <section id="work" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-8">
-      <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+    <section id="work" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-5 md:py-8">
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-4 md:mb-8">
         <div>
           <h2 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
             Selected work
